@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T20:20:23.181Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RSKHwqOx6wuRcz1bAg9x" version="21.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-06T20:25:24.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2xARn5BY43hQPz7PE692" version="21.3.7" type="github" pages="2">
   <diagram name="Happy Path" id="OrkhdotAC_ehz5unJKXv">
     <mxGraphModel dx="2671" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -351,27 +351,24 @@
         </mxCell>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ZGwjas-sF7B6g6khWdPF-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1780" y="167.6" as="sourcePoint" />
-            <mxPoint x="2090" y="167.6" as="targetPoint" />
+            <mxPoint x="1780" y="129.6" as="sourcePoint" />
+            <mxPoint x="2090" y="129.6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ZGwjas-sF7B6g6khWdPF-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1780" y="218" as="sourcePoint" />
-            <mxPoint x="2090" y="218" as="targetPoint" />
+            <mxPoint x="1780" y="180" as="sourcePoint" />
+            <mxPoint x="2090" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-33" value="x-correlation-id:[uuid-v4]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
-          <mxGeometry x="1780" y="137.6" width="220" height="30" as="geometry" />
+          <mxGeometry x="1780" y="99.6" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-34" value="x-message-id:[uuid-v4]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
-          <mxGeometry x="1780" y="178" width="220" height="30" as="geometry" />
+          <mxGeometry x="1780" y="140" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-35" value="3hf83-3f883..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#FF8000;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
-          <mxGeometry x="2000" y="137.6" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZGwjas-sF7B6g6khWdPF-36" value="&lt;font color=&quot;#ffff00&quot;&gt;928wz-29fnjs...&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#00FF00;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
-          <mxGeometry x="1995" y="178" width="140" height="30" as="geometry" />
+          <mxGeometry x="2000" y="99.6" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZGwjas-sF7B6g6khWdPF-1" target="ZGwjas-sF7B6g6khWdPF-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -409,8 +406,8 @@
         <mxCell id="brVXEw2yJ3901MYIofdv-2" value="Logs en DataDog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=39;fontStyle=1" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
           <mxGeometry x="100" y="724" width="386" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="brVXEw2yJ3901MYIofdv-3" value="{ service: BFF,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id: &lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id: &lt;font color=&quot;#00ff00&quot;&gt;928wz-29fnjs...&amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ service: Payment,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id:&amp;nbsp;&lt;font color=&quot;#ff33ff&quot;&gt;9dhn2-bdq2b.., &lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;error: ...&lt;/font&gt;&lt;font color=&quot;#ff33ff&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ service: Payment,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id:&amp;nbsp;&lt;font color=&quot;#67ab9f&quot;&gt;478fh-137bf...&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ resource: Kafka,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-message-id:&amp;nbsp;&lt;font color=&quot;#ffff00&quot;&gt;693sf-27ag2...&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp;&lt;/font&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
-          <mxGeometry x="60" y="770" width="1020" height="120" as="geometry" />
+        <mxCell id="brVXEw2yJ3901MYIofdv-3" value="{ service: BFF,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id: &lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id: &lt;font color=&quot;#00ff00&quot;&gt;928wz-29fnjs...&amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ service: Payment,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id:&amp;nbsp;&lt;font color=&quot;#ff33ff&quot;&gt;9dhn2-bdq2b.., &lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;error: ...&lt;/font&gt;&lt;font color=&quot;#ff33ff&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ service: Payment,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id:&amp;nbsp;&lt;font color=&quot;#67ab9f&quot;&gt;478fh-137bf...&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ resource: Kafka,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-message-id:&amp;nbsp;&lt;font color=&quot;#ffff00&quot;&gt;693sf-27ag2...,&amp;nbsp;&lt;/font&gt;retry: ... }&lt;br&gt;{ resource: Kafka,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-message-id:&amp;nbsp;&lt;font color=&quot;#00fffb&quot;&gt;172fa-7nf73...&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp;&lt;/font&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
+          <mxGeometry x="60" y="770" width="1020" height="170" as="geometry" />
         </mxCell>
         <mxCell id="brVXEw2yJ3901MYIofdv-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZGwjas-sF7B6g6khWdPF-1" source="ZGwjas-sF7B6g6khWdPF-6" target="38N5Av1YSQFpUD3j-Tlx-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -435,6 +432,9 @@
             <mxPoint x="1200" y="209.6" as="sourcePoint" />
             <mxPoint x="1510" y="209.6" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="brVXEw2yJ3901MYIofdv-10" value="&lt;font style=&quot;font-size: 21px;&quot; color=&quot;#00ffff&quot;&gt;172fa-7nf73&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZGwjas-sF7B6g6khWdPF-1">
+          <mxGeometry x="1990" y="139.6" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
