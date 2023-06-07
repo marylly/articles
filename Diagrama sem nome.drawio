@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T20:25:24.140Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2xARn5BY43hQPz7PE692" version="21.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-07T14:27:10.119Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="CtGLtVCwRRVPz5v7ySKI" version="21.3.7" type="github" pages="2">
   <diagram name="Happy Path" id="OrkhdotAC_ehz5unJKXv">
-    <mxGraphModel dx="2671" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="3273" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,14 +207,8 @@
         <mxCell id="v7ca0MWnmdAflECbKoVO-72" value="x-correlation-id:[uuid-v4]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1170" y="480" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tRfhFazK1jwDJ0xWtwDz-4" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="550" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="tRfhFazK1jwDJ0xWtwDz-5" value="Logs en DataDog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=39;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="724" width="386" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tRfhFazK1jwDJ0xWtwDz-6" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="550" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tRfhFazK1jwDJ0xWtwDz-7" value="{ service: BFF,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id: &lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id: &lt;font color=&quot;#00ff00&quot;&gt;928wz-29fnjs...&amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ service: Payment,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id:&amp;nbsp;&lt;font color=&quot;#ff33ff&quot;&gt;9dhn2-bdq2b...&amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ service: Transactions,&amp;nbsp; x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-request-id:&amp;nbsp;&lt;font color=&quot;#67ab9f&quot;&gt;478fh-137bf...&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;}&lt;br&gt;{ resource: Kafka,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x-correlation-id:&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;3hf83-3f883&lt;/font&gt;..., x-message-id:&amp;nbsp;&lt;font color=&quot;#ffff00&quot;&gt;693sf-27ag2...&lt;/font&gt;&lt;font color=&quot;#00ff00&quot;&gt;&amp;nbsp;&lt;/font&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
           <mxGeometry x="73.03" y="770" width="916.97" height="120" as="geometry" />
@@ -226,7 +220,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UnHappy Path" id="OrriC6GS3F-SjHHG8FL_">
-    <mxGraphModel dx="2003" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="3273" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="ZGwjas-sF7B6g6khWdPF-0" />
         <mxCell id="ZGwjas-sF7B6g6khWdPF-1" parent="ZGwjas-sF7B6g6khWdPF-0" />
